@@ -1,0 +1,41 @@
+main {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    position: sticky; 
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    background-color: #fa5284;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Optima";
+    color: white; 
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 0px #ff789c; 
+}
+
+.active {
+    text-decoration: underline;
+}
+
+nav li { 
+    display: inline;
+    gap: 10em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+body {
+    background: rgb(255,199,122);
+    background: linear-gradient(159deg, rgba(255,199,122,1) 25%, rgb(255, 138, 177) 71%);
+}
